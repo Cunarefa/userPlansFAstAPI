@@ -135,9 +135,6 @@ async def get_plan_performance(check_date: str, session: AsyncSession = Depends(
 
     return output
 
-@router.get("year_performance")
-async def get_year_performance(year: str, session: AsyncSession = Depends(get_session)):
-
 
 
 
