@@ -1,0 +1,42 @@
+/*.csv
+/fix_users_data.py
+/.venv
+/.env
+
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+venv/
+env/
+.env/
+.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage, test reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Database
+*.sqlite3
+
+# Docker
+*.env
+docker-compose.override.yml
+**/Dockerfile.*
+**/docker-compose.override.yml
