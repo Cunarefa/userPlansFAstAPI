@@ -26,7 +26,7 @@ class CreditOutput(BaseModel):
     open_info: OpenCreditInfo | None = None
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class PlansPerformanceSchema(BaseModel):
@@ -35,10 +35,3 @@ class PlansPerformanceSchema(BaseModel):
     sum: int
     total: int
     plan_fulfillment_percentage: int
-
-
-class YearPerformanceSchema(BaseModel):
-    month_year: str
-    number_of_loans: int
-    month_sum_of_loans: int
-    

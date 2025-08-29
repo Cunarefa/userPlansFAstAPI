@@ -134,9 +134,3 @@ async def get_plan_performance(check_date: str, session: AsyncSession = Depends(
     ]
 
     return output
-
-
-
-
-
-        
